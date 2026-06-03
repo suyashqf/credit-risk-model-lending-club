@@ -43,7 +43,7 @@ Single notebook: `credit_risk_model_lending_club.ipynb`
 | Part | What it does |
 |---|---|
 | **Part 1 — Data Loading** | Load raw CSV, define binary default target, parse dates, create vintage year, check missing values |
-| **Part 2 — EDA** | Default rates by grade, FICO, DTI, income, purpose, term. Vintage × Grade heatmap. Correlation matrix. |
+| **Part 2 — EDA** | Default rates by grade, DTI, income, purpose, term. Vintage × Grade heatmap. Correlation matrix. |
 | **Part 3 — Feature Engineering** | Temporal train/OOT split, missing value treatment, WoE encoding, IV-based feature selection, multicollinearity check |
 | **Part 4 — PD Model** | Logistic regression on WoE features, scorecard scaling (PDO=20), Platt calibration, Margin of Conservatism, Traffic Light backtesting, Master Rating Scale |
 | **Part 5 — LGD, EAD, EL** | Two-stage LGD model, downturn adjustment, Basel floor, EAD from outstanding balance, EL = PD × LGD × EAD, RWA via Basel IRBA formula |
